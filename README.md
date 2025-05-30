@@ -2,41 +2,20 @@
 
 A full-stack Todo application built with **MongoDB**, **Express**, **React**, and **Node.js**. Users can sign up, log in, create, update, and delete todos with secure JWT-based authentication.
 
-<!-- ---
+---
 
 ## 🔗 Live Demo
 
-- 🌐 Frontend: [https://your-frontend.onrender.com](https://your-frontend.onrender.com)
-- ⚙️ Backend API: [https://your-backend.onrender.com](https://your-backend.onrender.com)
+- 🌐 Frontend: https://sturdy-couscous-u9qd.onrender.com
+<!-- - ⚙️ Backend API: [https://your-backend.onrender.com](https://your-backend.onrender.com) -->
 
---- -->
+---
 
 ## 🛠 Tech Stack
 
 - **Frontend**: React, Tailwind CSS, Axios, Framer Motion
 - **Backend**: Node.js, Express, MongoDB (via Mongoose), JWT Auth
 - **Deployment**: Render, MongoDB Atlas
-
----
-
-## 📁 Folder Structure
-
-\`\`\`
-my-todo-app/
-├── client/       # React frontend
-│   └── src/
-│       ├── api/           # Axios API calls
-│       ├── components/    # TodoForm & TodoList
-│       ├── context/       # Auth context
-│       └── App.js
-├── server/       # Node + Express backend
-│   ├── models/         # Mongoose models
-│   ├── routes/         # API routes
-│   ├── middleware/     # Auth middleware
-│   └── index.js
-├── .env           # Environment variables
-└── README.md
-\`\`\`
 
 ---
 
