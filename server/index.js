@@ -8,6 +8,7 @@ app.use(cookieParser());
 const cors = require('cors');
 app.use(cors({
     origin: 'https://sturdy-couscous-u9qd.onrender.com',
+    credentials : true
 }));
 
 const connectDB = require('./config/db');
